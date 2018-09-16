@@ -1,0 +1,42 @@
+*{
+    user-select: none;
+}
+.content{
+    padding: 50px 0;
+    box-sizing: border-box;
+}
+
+.content .container{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    width: max-content;
+}
+
+.content .container .operate{
+    width: 20px;
+    height: 60px;
+    background-color: #0c9440;
+    cursor: pointer;
+}
+
+.content .container .pic{
+    overflow: hidden;
+    position: relative;
+}
+
+.content .container .pic .item{
+    float: left;
+    margin: 0 10px;
+    display: none;
+    position: relative;
+}
+
+.content .container .pic img{
+    max-width: 270px;
+}
+
+.content .container .pic .item.active{
+    display: block;
+}
