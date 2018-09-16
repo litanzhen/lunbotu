@@ -28,7 +28,7 @@
 
 .content .container .pic .item{
     float: left;
-    margin: 0 10px;
+    padding: 0 10px;
     display: none;
     position: relative;
 }
